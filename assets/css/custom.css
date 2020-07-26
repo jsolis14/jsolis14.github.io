@@ -103,7 +103,7 @@
     display: flex;
     flex-shrink: 0;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem 1rem;
     border-bottom: 1px solid #dee2e6;
     border-top-left-radius: calc(0.3rem - 1px);
@@ -344,4 +344,41 @@
 .project-media__logo{
   width: 64px;
   height: 64px;
+}
+
+.project-features__gif-container{
+  margin: 30px 0px;
+}
+
+.gif-container__title{
+  text-align: center;
+}
+
+.contact-info__info-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info__container{
+  width: 40%;
+}
+/* .contact-info__info-title{
+  margin-right: 25px;
+} */
+
+.project-gif{
+  width: 100%;
+}
+
+.table-value{
+  text-align: left;
+}
+
+.table-header{
+  text-align: right;
+}
+
+.bottom-page{
+  display: flex;
+  justify-content: center;
 }

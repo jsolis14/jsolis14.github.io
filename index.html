@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Miniport by HTML5 UP</title>
+	<title>Jesse Solis</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -40,7 +40,23 @@
 					</header>
 					<p>And I'm a recent graduate from App Academy with a background in <Strong>Industrial
 							Engineering</p>
-					<a href="#work" class="button large scrolly">Skills</a>
+					<h2>My Story</h2>
+					<p>During my senior year of college, I got the chance to work with a paper mill company who was
+						experiencing some
+						logistic concerns at the time. As a result, my team and I came up with a software based
+						solution. It was at this point my
+						passion and excitement for softare development began. Being able to see our software be used by
+						a
+						real company and making the
+						jobs of others easier was one of the most satisfying feelings ever and it has driven me to learn
+						and
+						produce useful and practicable applications
+						for the end user. When I'm not at my computer I love playing sports. Most specifically
+						basketball and soccer, or, if I'm not
+						feeling to active, i'll sit down and jam out on my guitar.
+					</p>
+					<!-- <a href="#work" class="button large scrolly">Skills</a> -->
+
 				</div>
 			</div>
 		</div>
@@ -112,7 +128,7 @@
 
 			</div>
 			<footer>
-				<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+				<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p> -->
 				<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
 			</footer>
 		</div>
@@ -123,7 +139,7 @@
 		<div class="container">
 			<header>
 				<h2>Here’s some stuff I made recently.</h2>
-				<p>Proin odio consequat sapien vestibulum consequat lorem dolore feugiat.</p>
+				<!-- <p>Proin odio consequat sapien vestibulum consequat lorem dolore feugiat.</p> -->
 			</header>
 			<div class="row">
 				<div class="col-4 col-6-medium col-12-small">
@@ -131,6 +147,9 @@
 						<a href="#" class="image featured"><img src="images/aircnc/aircnc-landing.PNG" alt="" /></a>
 						<h3><a href="#">Aircnc</a></h3>
 						<p>A site where guest can rent brilliant kitchens</p>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#airCnC-modal">
+							See more info
+						</button>
 					</article>
 				</div>
 				<div class="col-4 col-6-medium col-12-small">
@@ -146,15 +165,30 @@
 				</div>
 				<div class="col-4 col-6-medium col-12-small">
 					<article class="box style2">
-						<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-						<h3><a href="#">Comming Soon</a></h3>
-						<p>A project that is comming soon hopefully</p>
+						<a href="#" class="image featured"><img src="images/flippyflapp/flippyFlapp.PNG" alt="" /></a>
+						<h3><a href="#">Flippy Flapp</a></h3>
+						<p>An app where private pilots can plan and save their flight trips</p>
+						<button type="button" class="btn btn-primary" data-toggle="modal"
+							data-target="#flippyFlapp-modal">
+							See more info
+						</button>
+					</article>
+				</div>
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<a href="#" class="image featured"><img src="images/Health_Nut.PNG" alt="" /></a>
+						<h3><a href="#">Health Nut</a></h3>
+						<p>An app where users can track thier calories on a day to day basis</p>
+						<button type="button" class="btn btn-primary" data-toggle="modal"
+							data-target="#healthNut-modal">
+							See more info
+						</button>
 					</article>
 				</div>
 
 			</div>
 			<footer>
-				<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+				<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p> -->
 				<a href="#contact" class="button large scrolly">Get in touch with me</a>
 			</footer>
 		</div>
@@ -164,45 +198,86 @@
 	<article id="contact" class="wrapper style4">
 		<div class="container medium">
 			<header>
-				<h2>Have me make stuff for you.</h2>
-				<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+				<h2>Get in touch with me</h2>
+				<!-- <p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p> -->
 			</header>
-			<div class="row">
+			<div class="row bottom-page">
 				<div class="col-12">
-					<form method="post" action="#">
+					<form method="POST" action="https://formspree.io/mqkywweb">
 						<div class="row">
 							<div class="col-6 col-12-small">
-								<input type="text" name="name" id="name" placeholder="Name" />
+								<input type="text" name="name" id="name" name='name' placeholder="Name" />
 							</div>
 							<div class="col-6 col-12-small">
-								<input type="text" name="email" id="email" placeholder="Email" />
+								<input type="text" name="email" id="email" name="_replyto" placeholder="Email" />
 							</div>
 							<div class="col-12">
-								<input type="text" name="subject" id="subject" placeholder="Subject" />
+								<input type="text" name="subject" name="subject" id="_subject" placeholder="Subject" />
 							</div>
 							<div class="col-12">
 								<textarea name="message" id="message" placeholder="Message"></textarea>
 							</div>
 							<div class="col-12">
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Send" /></li>
 									<li><input type="reset" value="Clear Form" class="alt" /></li>
 								</ul>
 							</div>
 						</div>
 					</form>
 				</div>
+				<div class="contact-info__container">
+					<table style="width:100%">
+
+						<tr>
+							<td class="table-header">Name: &nbsp;</td>
+							<td class="table-value">Jesse Solis</td>
+						</tr>
+						<tr>
+							<td class="table-header">Phone: &nbsp;</td>
+							<td class="table-value">(817) 696-3977</td>
+						</tr>
+						<tr>
+							<td class="table-header">Email: &nbsp;</td>
+							<td class="table-value">jesse.solis0316@gmail.com</td>
+						</tr>
+						<tr>
+							<td class="table-header">Addr: &nbsp; </td>
+							<td class="table-value">Fort Worth, Tx</td>
+						</tr>
+
+					</table>
+					<!-- <div>PERSONAL INFORMATION</div>
+					<div class="contact-info__info-container">
+						<div class="contact-info__info-title">Name: </div>
+						<div>Jesse Solis</div>
+					</div>
+					<div class="contact-info__info-container">
+						<div class="contact-info__info-title">Phone: </div>
+						<div>(817) 696-3977</div>
+					</div>
+					<div class="contact-info__info-container">
+						<div class="contact-info__info-title">Email: </div>
+						<div>jesse.solis0316@gmail.com</div>
+					</div>
+					<div class="contact-info__info-container">
+						<div class="contact-info__info-title">Address: </div>
+						<div>Fort Worth, Tx</div>
+					</div> -->
+				</div>
 				<div class="col-12">
 					<hr />
 					<h3>Find me on ...</h3>
 					<ul class="social">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+						<li><a href="https://www.linkedin.com/in/jesse-solis-3a8212185/"
+								class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<!-- <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li> -->
+						<li><a href="https://github.com/jsolis14" class="icon brands fa-github"><span
+									class="label">Github</span></a></li>
 						<!--
 								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
@@ -232,12 +307,15 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Dotify</h5>
+					<h2 class="modal-title" id="exampleModalLabel">Dotify</h2>
 				</div>
 				<div class="modal-body">
 					<div class='project-info'>
+						<div class="project-features__gif-container">
+							<img class="project-gif" src="https://media.giphy.com/media/JRmot8p8dHWGtvarFl/giphy.gif" />
+						</div>
 						<div class="project-info__details">
-							<h4>Description</h4>
+							<h3>Description</h3>
 							<p>Dotify is a front end client that uses the Spotify API to preform certain actions on
 								behalf of a spotify user.
 								Currently a user can access thier playlist, create a playlist, play music, and even
@@ -248,7 +326,7 @@
 								<div class="project-media__link">
 									<p>Link to Live Site:</p>
 									<div class="project-media__picture">
-										<a href="https://aadotify.herokuapp.com/">
+										<a href="https://master.d36wh2xec4sh9g.amplifyapp.com/">
 											<img class="project-media__logo"
 												src="./images/heroku-logo-stroke-purple.svg" />
 										</a>
@@ -268,7 +346,28 @@
 
 						</div>
 					</div>
+					<div class="project-features">
+						<!-- <h3>Features</h3>
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">View your playlists, play a song, and even add songs to
+								the queue</h4>
+							<img src="https://media.giphy.com/media/ZFFLMFTrzLBgx0PQQd/giphy.gif" />
+						</div>
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Search for a song or an artist</h4>
+							<img src="https://media.giphy.com/media/JQFhQYEjswQyphJn9n/giphy.gif" />
+						</div>
 
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Create a playlist</h4>
+							<img src="https://media.giphy.com/media/lptU6sriSAN0eE6hu0/giphy.gif" />
+						</div>
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Add music to a playlist</h4>
+							<img src="https://media.giphy.com/media/egw1vsEFMyjV0Z5V78/giphy.gif" />
+						</div> -->
+
+					</div>
 					<div class="project-technologies">
 						<div class="project-technologies__details">
 							<h3>Technologies Used</h3>
@@ -277,6 +376,7 @@
 								<li>OAuth</li>
 								<li>React Bootstrap</li>
 								<li>Heroku Deployment</li>
+								<li>Spotify Api</li>
 							</ul>
 						</div>
 					</div>
@@ -291,6 +391,247 @@
 		</div>
 	</div>
 
+	<div class="modal fade" id="flippyFlapp-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title" id="exampleModalLabel">Flippy Flapp</h2>
+				</div>
+				<div class="modal-body">
+					<div class='project-info'>
+						<div class="project-features__gif-container">
+							<img class="project-gif" src="https://media.giphy.com/media/KE5mfbruQEWpZuHynK/giphy.gif" />
+						</div>
+						<div class="project-info__details">
+							<h3>Description</h3>
+							<p>Flippy Flapp is a website where private pilots can save and save thier flight plans.
+								Users can choose between two airports
+								on the map and a corresponding set of waypoints will be generated for refueling
+								purposes.
+							</p>
+							<div class="project-media">
+								<div class="project-media__link">
+									<p>Link to Live Site:</p>
+									<div class="project-media__picture">
+										<a href="https://www.flippyflapp.com/">
+											<img class="project-media__logo"
+												src="./images/heroku-logo-stroke-purple.svg" />
+										</a>
+									</div>
+
+								</div>
+
+								<div class="project-media__link">
+									<p>Link to Project Repo:</p>
+									<div class="project-media__picture">
+										<a href="https://github.com/jballa91/flippyFlapp">
+											<img class="project-media__logo" src="./images/github-logo.png" />
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- <div class="project-features">
+						<h3>Features</h3>
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Generate a flight path</h4>
+							<img src="https://media.giphy.com/media/KE5mfbruQEWpZuHynK/giphy.gif" />
+						</div>
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Save an airplane</h4>
+							<img src="https://media.giphy.com/media/JQFhQYEjswQyphJn9n/giphy.gif" />
+						</div>
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Save a flight plan</h4>
+							<img src="https://media.giphy.com/media/JRmot8p8dHWGtvarFl/giphy.gif" />
+						</div>
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Choose an airport to see detailed info</h4>
+							<img src="https://media.giphy.com/media/THmNStHsosojk5mADD/giphy.gif" />
+						</div>
+					</div> -->
+					<div class="project-technologies">
+						<div class="project-technologies__details">
+							<h3>Technologies Used</h3>
+							<ul>
+								<li>React</li>
+								<li>Redux</li>
+								<li>Auth0</li>
+								<li>Material UI</li>
+								<li>Heroku Deployment (backend)</li>
+								<li>AWS Deployment (front-end)</li>
+								<li>Python</li>
+								<li>JavaScript</li>
+								<li>Flask</li>
+								<li>Google Maps API</li>
+								<li>PostgreSQL</li>
+								<li>SQLAlchemy</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="">
+
+					</div>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="airCnC-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title" id="exampleModalLabel">AirCnC</h2>
+				</div>
+				<div class="modal-body">
+					<div class='project-info'>
+						<div class="project-features__gif-container">
+							<img class="project-gif" src="https://media.giphy.com/media/Q80xaYgZ8mcOjWMP1X/giphy.gif" />
+						</div>
+						<div class="project-info__details">
+							<h3>Description</h3>
+							<p>AirCnC is a spin off of Airbnb where users can rent kitchens and hosts can rent out their
+								kitchens to
+								users.
+							</p>
+							<div class="project-media">
+								<div class="project-media__link">
+									<p>Link to Live Site:</p>
+									<div class="project-media__picture">
+										<a href="http://www.aircnc.us/">
+											<img class="project-media__logo"
+												src="./images/heroku-logo-stroke-purple.svg" />
+										</a>
+									</div>
+
+								</div>
+
+								<div class="project-media__link">
+									<p>Link to Project Repo:</p>
+									<div class="project-media__picture">
+										<a href="https://github.com/JoshuaCachola/Rework-front">
+											<img class="project-media__logo" src="./images/github-logo.png" />
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="project-technologies">
+						<div class="project-technologies__details">
+							<h3>Technologies Used</h3>
+							<ul>
+								<li>Material Lite</li>
+								<li>Heroku Deployment (backend/front-end)</li>
+								<li>JavaScript</li>
+								<li>Express</li>
+								<li>Google Maps API</li>
+								<li>PostgreSQL</li>
+								<li>Sequelize</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="healthNut-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title" id="exampleModalLabel">Health Nut</h2>
+				</div>
+				<div class="modal-body">
+					<div class='project-info'>
+						<div class="project-info__details">
+							<div class="project-features__gif-container">
+
+								<img src="https://media.giphy.com/media/W1Z6866r0bKAfpJRT2/giphy.gif" />
+							</div>
+							<h3>Description</h3>
+							<p>Health Nut is an app where users can choose from multiple fitness plans, such as loosing,
+								maintaining, or
+								gaining weight and then track the calories needed to accomplish the fitness plan on a
+								daily basis
+							</p>
+							<div class="project-media">
+								<div class="project-media__link">
+									<p>Link to Live Site:</p>
+									<div class="project-media__picture">
+										<a href="https://master.d2v8iaichtof5r.amplifyapp.com/">
+											<img class="project-media__logo"
+												src="./images/heroku-logo-stroke-purple.svg" />
+										</a>
+									</div>
+
+								</div>
+
+								<div class="project-media__link">
+									<p>Link to Project Repo:</p>
+									<div class="project-media__picture">
+										<a href="https://github.com/jsolis14/HealthNut">
+											<img class="project-media__logo" src="./images/github-logo.png" />
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- <div class="project-features">
+						<h3>Features</h3>
+
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Create Foods</h4>
+							<img src="https://media.giphy.com/media/JQFhQYEjswQyphJn9n/giphy.gif" />
+						</div>
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Add foods to a day</h4>
+							<img src="https://media.giphy.com/media/JRmot8p8dHWGtvarFl/giphy.gif" />
+						</div>
+						<div class="project-features__gif-container">
+							<h4 class="gif-container__title">Track nutritional intake on a daily basis</h4>
+							<img src="https://media.giphy.com/media/THmNStHsosojk5mADD/giphy.gif" />
+						</div>
+					</div> -->
+					<div class="project-technologies">
+						<div class="project-technologies__details">
+							<h3>Technologies Used</h3>
+							<ul>
+								<li>React</li>
+								<li>Redux</li>
+								<li>Auth0</li>
+								<li>Material UI</li>
+								<li>Heroku Deployment (backend)</li>
+								<li>AWS Deployment (front-end)</li>
+								<li>Python</li>
+								<li>JavaScript</li>
+								<li>Flask</li>
+								<li>PostgreSQL</li>
+								<li>SQLAlchemy</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="">
+
+					</div>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
