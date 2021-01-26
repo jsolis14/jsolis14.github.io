@@ -1609,9 +1609,9 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section, article {
+	/* section, article {
 		margin-bottom: 3em;
-	}
+	} */
 
 	section > :last-child,
 	article > :last-child,
